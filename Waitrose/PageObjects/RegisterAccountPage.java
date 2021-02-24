@@ -51,6 +51,7 @@ public class RegisterAccountPage extends AbstractBasePage {
 //        } catch (InterruptedException e) {
 //            e.printStackTrace();
 //        }
+        // I can't get this to select the address I want. Can you have a look?
         webDriver.findElement(By.xpath("//p[normalize-space()='4 Murray Street, Leyland, PR25 4ZB']")).click();
         return this;
     }
